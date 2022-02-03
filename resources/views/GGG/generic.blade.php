@@ -31,8 +31,8 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="{{route('index')}}">INICIO</a></li>
-								<li><a href="{{route('generic')}}">CRONOLOGIA/a></li>
-								<li><a href="">PERSONAJES</a></li>
+								<li><a href="{{route('generic')}}">CRONOLOGIA</a></li>
+								<li><a href="{{route('elements')}}">PERSONAJES</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -44,7 +44,7 @@
 								<div class="inner">
 
 									<h1 class="major">CRONOLOGIA</h1>
-									<p>Spider-Man (2002)</p>
+										<p>Spider-Man (2002)</p>
 										<p>Spider-Man 2 (2004)</p>
 										<p>Spider-Man 3 (2007)</p>
 										<p>The Amazing Spider-Man (2012)</p>
@@ -55,6 +55,7 @@
 										<p>Avengers: Endgame (2019)</p>
 										<p>Spider-Man: Far From Home (2019)</p>
 										<p>Spider-Man: No Way Home (2021)</p>
+							
 
 					</section>
 

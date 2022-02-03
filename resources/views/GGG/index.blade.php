@@ -30,9 +30,9 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="{{route('index')}}">RESUMEN</a></li>
+								<li><a href="{{route('index')}}">INICIO</a></li>
 								<li><a href="{{route('generic')}}">CRONOLOGIA</a></li>
-								<li><a href="">PERSONAJES</a></li>
+								<li><a href="{{route('elements')}}">PERSONAJES</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -46,6 +46,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="/images/01.jpg" alt="" /></a>
 									<div class="content">
+										<h1>Spider-man no way home</h1>
 										<h2 class="major">RESUMEN</h2>
 										<p>Uno de los finales más polémicos e intrigantes que nos ha dado el MCU. Tras los eventos de Avengers: Endgame, fue el Hombre Araña quien se encargo de poner fin a la Infinity Saga</p>
 										<p>Señala a todos los que tienen alguna relación con Spidey, desde su enamorada MJ, hasta la tía May, y sus mejores amigos. Peter es el enemigo número… a pesar de que tan solo un año atrás había ayudado a restaurar el universo en una encarnizada lucha contra Thanos.</p>
@@ -60,7 +61,7 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="/images/02.jpg" alt="" /></a>
+									<a href="{{route('generic')}}" class="image"><img src="/images/02.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">CRONOLOGIA</h2>
 										<p>Tras el estreno de No Way Home, les presentamos el orden cronológico actualizado para ver las películas de Spider-Man y que puedas entender la telaraña de historias que se conectan gracias al Hombre Araña.</p>
@@ -70,38 +71,16 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
+						<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<h2 class="major">PERSONAJES PRINCIPALES</h2>
-									
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="/images/03.jpg" alt="" /></a>
-											<h3 class="major">Thomas Stanley Holland</h3>
-											<p>Conocido simplemente como Tom Holland, es un actor, actor de voz y bailarín británico. Comenzó su carrera en el teatro en 2008 interpretando al personaje principal en el musical Billy Elliot</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/images/04.jpg" alt="" /></a>
-											<h3 class="major">Tobey Maguire</h3>
-											<p>Es un actor y productor de cine estadounidense conocido principalmente por interpretar a Peter Parker en la trilogía de Spider-Man de Sam Raimi y en la vigésimo séptima película del Universo cinematográfico de Marvel, Spider-Man: No Way Home. </p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/images/05.jpg" alt="" /></a>
-											<h3 class="major">Ante fermentum</h3>
-											<p>Es un actor y productor británico-estadounidense. A pesar de haber nacido en Los Ángeles, se crió en Epsom, Surrey, donde comenzó a actuar en teatros y producciones televisivas.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/images/07.jpg" alt="" /></a>
-											<h3 class="major">Zendaya Maree Stoermer Coleman</h3>
-											<p>Conocida simplemente como Zendaya, es una actriz, cantante y modelo estadounidense. Comenzó su carrera de actuación interpretando a Rocky Blue en la serie original de Disney Channel, Shake It Up. En 2013, participó en la decimosexta temporada del concurso Dancing with the Stars.</p>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
+									<a href="{{route('elements')}}" class="image"><img src="/images/02.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">PERSONAJES</h2>
+										<p>Fue sin duda una reinion de talento, actores reconocidos por todo su trabao, pero esta vez les presentamos a los protagonistas principales de esta pelicula<p>
+
+									</div>
 								</div>
 							</section>
-
 			</div>
 
 		<!-- Scripts -->

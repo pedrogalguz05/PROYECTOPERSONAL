@@ -30,40 +30,45 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">INICIO</a></li>
-								<li><a href="generic.html">CRONOLOGIA</a></li>
-								<li><a href="">PERSONAJES</a></li>
+							<li><a href="{{route('index')}}">INICIO</a></li>
+								<li><a href="{{route('generic')}}">CRONOLOGIA</a></li>
+								<li><a href="{{route('elements')}}">PERSONAJES</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
 					</nav>
 
 				<!-- Wrapper -->
-					<section id="wrapper">
-						<header>
-							<div class="inner">
-								<h2>PERSONAJES</h2>
-								<p>holaaaaa.</p>
-							</div>
-						</header>
-
-						<!-- Content -->
-							<div class="wrapper">
+				<section id="four" class="wrapper alt style1">
 								<div class="inner">
+									<h2 class="major">PERSONAJES PRINCIPALES</h2>
+									
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="/images/03.jpg" alt="" /></a>
+											<h3 class="major">Thomas Stanley Holland</h3>
+											<p>Conocido simplemente como Tom Holland, es un actor, actor de voz y bailarín británico. Comenzó su carrera en el teatro en 2008 interpretando al personaje principal en el musical Billy Elliot</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="/images/04.jpg" alt="" /></a>
+											<h3 class="major">Tobias Vicent Maguire</h3>
+											<p>Es un actor y productor de cine estadounidense conocido principalmente por interpretar a Peter Parker en la trilogía de Spider-Man de Sam Raimi y en la vigésimo séptima película del Universo cinematográfico de Marvel, Spider-Man: No Way Home. </p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="/images/05.jpg" alt="" /></a>
+											<h3 class="major">Andrew Russell Garfield</h3>
+											<p>Es un actor y productor británico-estadounidense. A pesar de haber nacido en Los Ángeles, se crió en Epsom, Surrey, donde comenzó a actuar en teatros y producciones televisivas.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="/images/07.jpg" alt="" /></a>
+											<h3 class="major">Zendaya Maree Stoermer Coleman</h3>
+											<p>Conocida simplemente como Zendaya, es una actriz, cantante y modelo estadounidense. Comenzó su carrera de actuación interpretando a Rocky Blue en la serie original de Disney Channel, Shake It Up. En 2013, participó en la decimosexta temporada del concurso Dancing with the Stars.</p>
+										</article>
+									</section>
+									
+								</div>
+							</section>
 
-									<section>
-										<h3 class="major">Text</h3>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<h4>Blockquote</h4>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h4>Preformatted</h4>
-										<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-						</div>
-					</section>
 
 			</div>
 
